@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 👯 NOVA Base ESX Legacy
 
 ![image](https://cdn.discordapp.com/attachments/1087177445892960259/1088966760901914654/Sin_titulo-1.png)
@@ -17,7 +16,7 @@
 
 # 🤝 Instalación
 - [Si quieres una guia de como crear el servidor unete a mi discord](https://discord.gg/VQHqvV2GPn)
-=======
+
 # ESXLegacy-Nova-Base
 
 ❖「💫」・Optimización・
