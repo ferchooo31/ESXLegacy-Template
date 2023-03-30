@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+	<div id="notifyInfo" class="progressbox">
+		<div id="progline" class="progline"><center>
+			<div class="text">
+				<p id="infoMessage"></center>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+<style>
+
+	.progressbox {
+        display: none;
+        position:absolute;
+        left: 40%;
+		top: 80%;
+        right: 0;
+        bottom: 100px;
+        min-width: 16%;
+        width:fit-content; 
+        height: 40px;
+        background: rgba(0,0,0,0.92);
+		border-right: 4px solid #FD9800;
+		border-radius: 8px;
+		-webkit-box-shadow: -3px 14px 13px -9px rgba(0, 0, 0, 1);
+		-moz-box-shadow: -3px 14px 13px -9px rgba(0, 0, 0, 1);
+		box-shadow: -3px 14px 13px -9px rgba(0, 0, 0, 1);
+    }
+	
+	.progressbox .progline {
+        height: 40px;
+        width: 100%;
+        border-radius: 5px;
+        background: #FD9800;
+    }
+	
+	.text {
+		position: absolute;
+        width:100%;
+	}
+	
+	p { 
+        word-wrap: break-word;
+        margin-top: 10px;
+		font-size: 16px;
+		font-weight: 600;
+		text-shadow: 2px 2px 3px #000;
+	}
+</style>

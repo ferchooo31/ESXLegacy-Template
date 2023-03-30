@@ -1,0 +1,13 @@
+/resources/[Ymaps]
+
+Step 1 
+Go to Your Resource Folder. 
+
+Step 2
+Next Make a Folder Named [YMaps] 
+
+Step 3 
+Go Into this Folder [YMaps] and Drag and Drop in NRP-All-Maps-Update-2.70-Beta-3
+
+Step 4 
+Thats it and Restart your Server

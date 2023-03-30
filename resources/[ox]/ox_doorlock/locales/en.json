@@ -1,0 +1,18 @@
+{
+  "unlocked_door": "Abierto",
+  "locked_door": "Cerrado",
+  "lock_door": "[E] Cerrar",
+  "unlock_door": "[E] Abrir",
+  "door_lock": "Bloqueo de Puertas",
+  "passcode": "PIN",
+  "lockpick_broke": "Se ha roto tu ganzúa",
+  "pick_lock": "Forzar",
+  "add_lock": "Añadir cerradura",
+  "edit_lock": "Edit doorlock",
+  "remove_lock": "Borrar cerradura",
+  "cannot_unlock": "No se puede abrir la cerradura",
+  "cannot_lock": "No se puede cerrar la cerradurar",
+  "create_modify_lock": "Crear una cerradura o modificar una existente",
+  "add_door_textui": "**Crear nueva cerradura**  \nInteracciona con[LMB]  \nCancela con [RMB]",
+  "command_closest": "Abra la interfaz de usuario directamente a la cerradura de la puerta más cercana"
+}

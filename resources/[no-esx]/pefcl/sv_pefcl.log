@@ -1,0 +1,84 @@
+{"level":"debug","message":"Initializing...","module":"base","timestamp":"2023-03-20T19:31:29.467Z"}
+{"level":"debug","message":"Initialized Boot controller","module":"base","timestamp":"2023-03-20T19:31:29.470Z"}
+{"level":"debug","message":"Initialized User controller","module":"base","timestamp":"2023-03-20T19:31:29.470Z"}
+{"level":"debug","message":"Initialized Cash controller","module":"base","timestamp":"2023-03-20T19:31:29.470Z"}
+{"level":"debug","message":"Initialized Invoice controller","module":"base","timestamp":"2023-03-20T19:31:29.470Z"}
+{"level":"debug","message":"Initialized Account controller","module":"base","timestamp":"2023-03-20T19:31:29.470Z"}
+{"level":"debug","message":"Initialized Transaction controller","module":"base","timestamp":"2023-03-20T19:31:29.470Z"}
+{"level":"debug","message":"Initialized Broadcast controller","module":"base","timestamp":"2023-03-20T19:31:29.471Z"}
+{"level":"debug","message":"Loading language from config: es","module":"i18n","timestamp":"2023-03-20T19:31:29.471Z"}
+{"level":"debug","message":"Checking database connection ..","module":"boot","timestamp":"2023-03-20T19:31:32.710Z"}
+{"level":"debug","message":"Connected to database.","module":"boot","timestamp":"2023-03-20T19:31:33.023Z"}
+{"level":"info","message":"Starting pefcl.","module":"boot","timestamp":"2023-03-20T19:31:33.023Z"}
+{"level":"debug","message":"Initializing...","module":"base","timestamp":"2023-03-20T19:32:24.055Z"}
+{"level":"debug","message":"Initialized Boot controller","module":"base","timestamp":"2023-03-20T19:32:24.057Z"}
+{"level":"debug","message":"Initialized User controller","module":"base","timestamp":"2023-03-20T19:32:24.057Z"}
+{"level":"debug","message":"Initialized Cash controller","module":"base","timestamp":"2023-03-20T19:32:24.057Z"}
+{"level":"debug","message":"Initialized Invoice controller","module":"base","timestamp":"2023-03-20T19:32:24.057Z"}
+{"level":"debug","message":"Initialized Account controller","module":"base","timestamp":"2023-03-20T19:32:24.057Z"}
+{"level":"debug","message":"Initialized Transaction controller","module":"base","timestamp":"2023-03-20T19:32:24.058Z"}
+{"level":"debug","message":"Initialized Broadcast controller","module":"base","timestamp":"2023-03-20T19:32:24.058Z"}
+{"level":"debug","message":"Loading language from config: es","module":"i18n","timestamp":"2023-03-20T19:32:24.058Z"}
+{"level":"debug","message":"Checking database connection ..","module":"boot","timestamp":"2023-03-20T19:32:24.130Z"}
+{"level":"debug","message":"Connected to database.","module":"boot","timestamp":"2023-03-20T19:32:24.149Z"}
+{"level":"info","message":"Starting pefcl.","module":"boot","timestamp":"2023-03-20T19:32:24.149Z"}
+{"level":"debug","message":"Loading player for pefcl.","module":"user","timestamp":"2023-03-20T19:32:46.609Z"}
+{"level":"debug","message":{"identifier":"license:ffd8ac5f04b93043d9a101cdf1a17be7dc6e91a2","name":"Fercho_31","source":1},"module":"user","timestamp":"2023-03-20T19:32:46.610Z"}
+{"level":"debug","message":"Player loaded. Emitting: pefcl:userLoaded","module":"user","timestamp":"2023-03-20T19:32:46.614Z"}
+{"level":"debug","message":"Creating initial cash row for source: 1","module":"cash","timestamp":"2023-03-20T19:32:46.621Z"}
+{"level":"silly","message":"Checking if default account exists for source: 1","module":"accounts","timestamp":"2023-03-20T19:32:46.625Z"}
+{"level":"silly","message":"Identifier: license:ffd8ac5f04b93043d9a101cdf1a17be7dc6e91a2","module":"accounts","timestamp":"2023-03-20T19:32:46.626Z"}
+{"level":"silly","message":"Broadcasting new cash amount ..","module":"broadcastService","timestamp":"2023-03-20T19:32:46.708Z"}
+{"level":"silly","message":"Broadcasted new cash amount!","module":"broadcastService","timestamp":"2023-03-20T19:32:46.709Z"}
+{"level":"silly","message":{"amount":2000,"identifier":"license:ffd8ac5f04b93043d9a101cdf1a17be7dc6e91a2","source":1},"module":"broadcastService","timestamp":"2023-03-20T19:32:46.709Z"}
+{"level":"debug","message":"Creating initial account .. ","module":"accounts","timestamp":"2023-03-20T19:32:46.710Z"}
+{"level":"silly","message":"Broadcasting new balance for default account ..","module":"broadcastService","timestamp":"2023-03-20T19:32:46.785Z"}
+{"level":"silly","message":"Broadcasted new balance for default account!","module":"broadcastService","timestamp":"2023-03-20T19:32:46.786Z"}
+{"level":"silly","message":{"balance":2500,"identifier":"license:ffd8ac5f04b93043d9a101cdf1a17be7dc6e91a2","source":1},"module":"broadcastService","timestamp":"2023-03-20T19:32:46.786Z"}
+{"level":"silly","message":"Broadcasting new balance for account ..","module":"broadcastService","timestamp":"2023-03-20T19:32:46.786Z"}
+{"level":"silly","message":"Broadcasted new balance for personal account:","module":"broadcastService","timestamp":"2023-03-20T19:32:46.786Z"}
+{"level":"silly","message":{"balance":2500,"identifier":"license:ffd8ac5f04b93043d9a101cdf1a17be7dc6e91a2","source":1},"module":"broadcastService","timestamp":"2023-03-20T19:32:46.787Z"}
+{"level":"debug","message":"Successfully created initial account.","module":"accounts","timestamp":"2023-03-20T19:32:46.787Z"}
+{"level":"silly","message":"netPromise > pefcl:getMyCash > RequestObj","module":"events","timestamp":"2023-03-20T19:33:23.989Z"}
+{"level":"silly","message":{"data":{},"source":1},"module":"events","timestamp":"2023-03-20T19:33:23.989Z"}
+{"level":"silly","message":"Response Promise Event pefcl:getMyCash:bb0864fd-a191-4600-a1a0-c2b4e99d33ff (2.3428ms), Data >>","module":"events","timestamp":"2023-03-20T19:33:23.991Z"}
+{"level":"silly","message":{"data":2000,"status":"ok"},"module":"events","timestamp":"2023-03-20T19:33:23.992Z"}
+{"level":"silly","message":"netPromise > pefcl:getAccounts > RequestObj","module":"events","timestamp":"2023-03-20T19:33:24.039Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2023-03-20T19:33:24.039Z"}
+{"level":"debug","message":"Retrieving accounts","module":"accounts","timestamp":"2023-03-20T19:33:24.039Z"}
+{"level":"silly","message":"Response Promise Event pefcl:getAccounts:cefaad44-68d8-4f44-b49e-ef9e4ec7e84f (48.3514ms), Data >>","module":"events","timestamp":"2023-03-20T19:33:24.087Z"}
+{"level":"silly","message":{"data":[{"accountName":"Cuenta personal","balance":2500,"createdAt":"20/3/2023 13:32:46","deletedAt":null,"id":1,"isDefault":true,"number":"920,3081-1117-2652","ownerIdentifier":"license:ffd8ac5f04b93043d9a101cdf1a17be7dc6e91a2","role":"owner","type":"personal","updatedAt":"2023-03-20T19:32:46.000Z"}],"status":"ok"},"module":"events","timestamp":"2023-03-20T19:33:24.087Z"}
+{"level":"debug","message":"Initializing...","module":"base","timestamp":"2023-03-20T19:39:15.027Z"}
+{"level":"debug","message":"Initialized Boot controller","module":"base","timestamp":"2023-03-20T19:39:15.030Z"}
+{"level":"debug","message":"Initialized User controller","module":"base","timestamp":"2023-03-20T19:39:15.031Z"}
+{"level":"debug","message":"Initialized Cash controller","module":"base","timestamp":"2023-03-20T19:39:15.031Z"}
+{"level":"debug","message":"Initialized Invoice controller","module":"base","timestamp":"2023-03-20T19:39:15.031Z"}
+{"level":"debug","message":"Initialized Account controller","module":"base","timestamp":"2023-03-20T19:39:15.031Z"}
+{"level":"debug","message":"Initialized Transaction controller","module":"base","timestamp":"2023-03-20T19:39:15.031Z"}
+{"level":"debug","message":"Initialized Broadcast controller","module":"base","timestamp":"2023-03-20T19:39:15.032Z"}
+{"level":"debug","message":"Loading language from config: es","module":"i18n","timestamp":"2023-03-20T19:39:15.032Z"}
+{"level":"debug","message":"Checking database connection ..","module":"boot","timestamp":"2023-03-20T19:39:15.341Z"}
+{"level":"debug","message":"Connected to database.","module":"boot","timestamp":"2023-03-20T19:39:15.387Z"}
+{"level":"info","message":"Starting pefcl.","module":"boot","timestamp":"2023-03-20T19:39:15.387Z"}
+{"level":"debug","message":"Loading player for pefcl.","module":"user","timestamp":"2023-03-20T19:39:43.310Z"}
+{"level":"debug","message":{"identifier":"license:ffd8ac5f04b93043d9a101cdf1a17be7dc6e91a2","name":"Fercho_31","source":1},"module":"user","timestamp":"2023-03-20T19:39:43.311Z"}
+{"level":"debug","message":"Player loaded. Emitting: pefcl:userLoaded","module":"user","timestamp":"2023-03-20T19:39:43.313Z"}
+{"level":"debug","message":"Creating initial cash row for source: 1","module":"cash","timestamp":"2023-03-20T19:39:43.325Z"}
+{"level":"silly","message":"Checking if default account exists for source: 1","module":"accounts","timestamp":"2023-03-20T19:39:43.328Z"}
+{"level":"silly","message":"Identifier: license:ffd8ac5f04b93043d9a101cdf1a17be7dc6e91a2","module":"accounts","timestamp":"2023-03-20T19:39:43.328Z"}
+{"level":"silly","message":"Default account exists.","module":"accounts","timestamp":"2023-03-20T19:39:43.343Z"}
+{"level":"silly","message":"netPromise > pefcl:getMyCash > RequestObj","module":"events","timestamp":"2023-03-20T19:39:59.492Z"}
+{"level":"silly","message":{"data":{},"source":1},"module":"events","timestamp":"2023-03-20T19:39:59.492Z"}
+{"level":"silly","message":"Response Promise Event pefcl:getMyCash:730bfe29-0751-48ed-a241-33f6f38b378b (2.0682ms), Data >>","module":"events","timestamp":"2023-03-20T19:39:59.494Z"}
+{"level":"silly","message":{"data":2000,"status":"ok"},"module":"events","timestamp":"2023-03-20T19:39:59.494Z"}
+{"level":"silly","message":"netPromise > pefcl:getAccounts > RequestObj","module":"events","timestamp":"2023-03-20T19:39:59.542Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2023-03-20T19:39:59.542Z"}
+{"level":"debug","message":"Retrieving accounts","module":"accounts","timestamp":"2023-03-20T19:39:59.542Z"}
+{"level":"silly","message":"Response Promise Event pefcl:getAccounts:2d5eebee-33a2-44ec-9200-814d51d36f84 (7.3174ms), Data >>","module":"events","timestamp":"2023-03-20T19:39:59.549Z"}
+{"level":"silly","message":{"data":[{"accountName":"Cuenta personal","balance":2500,"createdAt":"20/3/2023 13:32:46","deletedAt":null,"id":1,"isDefault":true,"number":"920,3081-1117-2652","ownerIdentifier":"license:ffd8ac5f04b93043d9a101cdf1a17be7dc6e91a2","role":"owner","type":"personal","updatedAt":"2023-03-20T19:32:46.000Z"}],"status":"ok"},"module":"events","timestamp":"2023-03-20T19:39:59.549Z"}
+{"level":"error","message":"Missing account","module":"accounts","timestamp":"2023-03-20T21:14:08.293Z"}
+{"level":"error","message":"Missing shared account.","module":"accounts","timestamp":"2023-03-20T21:56:00.783Z"}
+{"level":"error","message":"Failed to add user to unique account","module":"accounts","timestamp":"2023-03-20T21:56:00.785Z"}
+{"level":"error","message":"Missing account","module":"accounts","timestamp":"2023-03-25T19:18:30.649Z"}
+{"level":"error","message":"Failed to add user to unique account","module":"accounts","timestamp":"2023-03-25T19:26:42.431Z"}
+{"level":"error","message":"Missing account","module":"accounts","timestamp":"2023-03-30T00:19:43.571Z"}

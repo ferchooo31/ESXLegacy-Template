@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CMapParentTxds>
+	<txdRelationships>
+		<Item>
+			<parent>quadravtech_2</parent>
+			<child>quadravtech</child>
+		</Item>
+	</txdRelationships>
+</CMapParentTxds>

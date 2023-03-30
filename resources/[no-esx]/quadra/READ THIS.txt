@@ -1,0 +1,1 @@
+This is a FiveM Server Side Resource. You cannot use the Quadra Turbo-R V-Tech add-on without adding it to your FiveM server. 
