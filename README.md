@@ -1,7 +1,5 @@
 # 👯 NOVA Base ESX Legacy
 
-![image](https://cdn.discordapp.com/attachments/1087177445892960259/1088966760901914654/Sin_titulo-1.png)
-
 # :boom: Características
 - Optimización
 - ESX Legacy (1.9.4)
