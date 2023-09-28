@@ -14,7 +14,6 @@
 
 # 🤝 Instalación
 - [Si quieres una guia de como crear el servidor unete a mi discord](https://discord.gg/VQHqvV2GPn)
-- [Así mismo si quieres recibir actualizaciones de la base unete a mi discord](https://discord.gg/VQHqvV2GPn)
 
 # 👾 Discord
 - En mi discord encontraras más bases que iré creando con el tiempo (QBCore, ESX)
